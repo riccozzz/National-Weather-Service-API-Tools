@@ -1,0 +1,149 @@
+{
+    "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b791e781d4bbd769e7dcd8355d49560aa81f6d6f.001.1",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -96.08,
+                    41.76
+                ],
+                [
+                    -96.1,
+                    41.739999999999995
+                ],
+                [
+                    -96.0699999,
+                    41.699999999999996
+                ],
+                [
+                    -96.11,
+                    41.699999999999996
+                ],
+                [
+                    -96.12,
+                    41.69
+                ],
+                [
+                    -96.10000000000001,
+                    41.659999899999995
+                ],
+                [
+                    -96.41000000000001,
+                    41.60999999999999
+                ],
+                [
+                    -96.81999990000001,
+                    41.93999999999999
+                ],
+                [
+                    -96.62000000000002,
+                    42.00999999999999
+                ],
+                [
+                    -96.15000000000002,
+                    41.87999999999999
+                ],
+                [
+                    -96.11000000000001,
+                    41.84999999999999
+                ],
+                [
+                    -96.11000000000001,
+                    41.819999999999986
+                ],
+                [
+                    -96.06000000000002,
+                    41.79999999999998
+                ],
+                [
+                    -96.08,
+                    41.76
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b791e781d4bbd769e7dcd8355d49560aa81f6d6f.001.1",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.b791e781d4bbd769e7dcd8355d49560aa81f6d6f.001.1",
+        "areaDesc": "Burt, NE; Cuming, NE; Dodge, NE; Washington, NE",
+        "geocode": {
+            "SAME": [
+                "031021",
+                "031039",
+                "031053",
+                "031177"
+            ],
+            "UGC": [
+                "NEC021",
+                "NEC039",
+                "NEC053",
+                "NEC177"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/NEC021",
+            "https://api.weather.gov/zones/county/NEC039",
+            "https://api.weather.gov/zones/county/NEC053",
+            "https://api.weather.gov/zones/county/NEC177"
+        ],
+        "references": [],
+        "sent": "2022-06-11T16:13:00-05:00",
+        "effective": "2022-06-11T16:13:00-05:00",
+        "onset": "2022-06-11T16:13:00-05:00",
+        "expires": "2022-06-11T17:15:00-05:00",
+        "ends": "2022-06-11T17:15:00-05:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Omaha/Valley NE",
+        "headline": "Severe Thunderstorm Warning issued June 11 at 4:13PM CDT until June 11 at 5:15PM CDT by NWS Omaha/Valley NE",
+        "description": "The National Weather Service in Omaha has issued a\n\n* Severe Thunderstorm Warning for...\nBurt County in east central Nebraska...\nSoutheastern Cuming County in northeastern Nebraska...\nNorthwestern Washington County in east central Nebraska...\nNortheastern Dodge County in east central Nebraska...\n\n* Until 515 PM CDT.\n\n* At 413 PM CDT, a severe thunderstorm was located over Oakland, or\n13 miles northwest of Tekamah, moving southeast at 35 mph.\n\nHAZARD...Ping pong ball size hail and 60 mph wind gusts.\n\nSOURCE...Radar indicated.\n\nIMPACT...People and animals outdoors will be injured. Expect hail\ndamage to roofs, siding, windows, and vehicles. Expect\nwind damage to roofs, siding, and trees.\n\n* This severe thunderstorm will be near...\nCraig around 425 PM CDT.\n\nOther locations in the path of this severe thunderstorm include\nTekamah and Herman.",
+        "instruction": "A Tornado Watch remains in effect until 1000 PM CDT for southwestern\nand west central Iowa...and northeastern and east central Nebraska.\n\nFor your protection move to an interior room on the lowest floor of a\nbuilding.",
+        "response": "Shelter",
+        "parameters": {
+            "AWIPSidentifier": [
+                "SVROAX"
+            ],
+            "WMOidentifier": [
+                "WUUS53 KOAX 112113"
+            ],
+            "eventMotionDescription": [
+                "2022-06-11T21:13:00-00:00...storm...295DEG...32KT...41.86,-96.45"
+            ],
+            "windThreat": [
+                "RADAR INDICATED"
+            ],
+            "maxWindGust": [
+                "60 MPH"
+            ],
+            "hailThreat": [
+                "RADAR INDICATED"
+            ],
+            "maxHailSize": [
+                "1.50"
+            ],
+            "BLOCKCHANNEL": [
+                "EAS",
+                "NWEM",
+                "CMAS"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "VTEC": [
+                "/O.NEW.KOAX.SV.W.0169.220611T2113Z-220611T2215Z/"
+            ],
+            "eventEndingTime": [
+                "2022-06-11T22:15:00+00:00"
+            ]
+        }
+    }
+}

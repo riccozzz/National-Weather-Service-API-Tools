@@ -1,0 +1,121 @@
+{
+    "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.41b52b87dce36a8dd088bb11e133820d789245ea.001.1",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -97.37,
+                    40.67
+                ],
+                [
+                    -97.37,
+                    40.7299999
+                ],
+                [
+                    -97.25,
+                    40.78
+                ],
+                [
+                    -96.92,
+                    40.67
+                ],
+                [
+                    -97.02,
+                    40.49
+                ],
+                [
+                    -97.2,
+                    40.45
+                ],
+                [
+                    -97.37,
+                    40.67
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.41b52b87dce36a8dd088bb11e133820d789245ea.001.1",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.41b52b87dce36a8dd088bb11e133820d789245ea.001.1",
+        "areaDesc": "Saline, NE; Seward, NE",
+        "geocode": {
+            "SAME": [
+                "031151",
+                "031159"
+            ],
+            "UGC": [
+                "NEC151",
+                "NEC159"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/NEC151",
+            "https://api.weather.gov/zones/county/NEC159"
+        ],
+        "references": [],
+        "sent": "2022-06-11T16:25:00-05:00",
+        "effective": "2022-06-11T16:25:00-05:00",
+        "onset": "2022-06-11T16:25:00-05:00",
+        "expires": "2022-06-11T17:15:00-05:00",
+        "ends": "2022-06-11T17:15:00-05:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Omaha/Valley NE",
+        "headline": "Severe Thunderstorm Warning issued June 11 at 4:25PM CDT until June 11 at 5:15PM CDT by NWS Omaha/Valley NE",
+        "description": "The National Weather Service in Omaha has issued a\n\n* Severe Thunderstorm Warning for...\nSouthwestern Seward County in southeastern Nebraska...\nNorthern Saline County in southeastern Nebraska...\n\n* Until 515 PM CDT.\n\n* At 424 PM CDT, a severe thunderstorm was located 3 miles north of\nFriend, or 17 miles southwest of Seward, moving southeast at 10\nmph.\n\nHAZARD...Two inch hail and 60 mph wind gusts.\n\nSOURCE...Radar indicated.\n\nIMPACT...People and animals outdoors will be injured. Expect hail\ndamage to roofs, siding, windows, and vehicles. Expect\nwind damage to roofs, siding, and trees.\n\n* This severe thunderstorm will be near...\nFriend around 435 PM CDT.\n\nOther locations in the path of this severe thunderstorm include\nDorchester.",
+        "instruction": "A Tornado Watch remains in effect until 1000 PM CDT for southeastern\nNebraska.\n\nFor your protection move to an interior room on the lowest floor of a\nbuilding.",
+        "response": "Shelter",
+        "parameters": {
+            "AWIPSidentifier": [
+                "SVROAX"
+            ],
+            "WMOidentifier": [
+                "WUUS53 KOAX 112125"
+            ],
+            "eventMotionDescription": [
+                "2022-06-11T21:24:00-00:00...storm...316DEG...10KT...40.7,-97.27"
+            ],
+            "windThreat": [
+                "RADAR INDICATED"
+            ],
+            "maxWindGust": [
+                "60 MPH"
+            ],
+            "hailThreat": [
+                "RADAR INDICATED"
+            ],
+            "maxHailSize": [
+                "2.00"
+            ],
+            "thunderstormDamageThreat": [
+                "CONSIDERABLE"
+            ],
+            "tornadoDetection": [
+                "POSSIBLE"
+            ],
+            "BLOCKCHANNEL": [
+                "EAS",
+                "NWEM",
+                "CMAS"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "VTEC": [
+                "/O.NEW.KOAX.SV.W.0170.220611T2125Z-220611T2215Z/"
+            ],
+            "eventEndingTime": [
+                "2022-06-11T22:15:00+00:00"
+            ]
+        }
+    }
+}

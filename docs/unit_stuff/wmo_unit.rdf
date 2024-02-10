@@ -1,0 +1,1955 @@
+<rdf:RDF
+    xmlns:vs="http://www.w3.org/2003/06/sw-vocab-status/ns#"
+    xmlns:ldp="http://www.w3.org/ns/ldp#"
+    xmlns:version="http://purl.org/linked-data/version#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:ui="http://purl.org/linked-data/registry-ui#"
+    xmlns:prov="http://www.w3.org/ns/prov#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:qudt-dimension="http://qudt.org/vocab/dimension#"
+    xmlns:ssd="http://www.w3.org/ns/sparql-service-description#"
+    xmlns:vann="http://purl.org/vocab/vann/"
+    xmlns:cc="http://creativecommons.org/ns#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:reg="http://purl.org/linked-data/registry#"
+    xmlns:bufr4-core="http://codes.wmo.int/bufr4/schema/core/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:time="http://www.w3.org/2006/time#"
+    xmlns:dgu="http://reference.data.gov.uk/def/reference/"
+    xmlns:common-unit="http://codes.wmo.int/common/schema/unit/"
+    xmlns:common-core="http://codes.wmo.int/common/schema/core/"
+    xmlns:qudt="http://qudt.org/schema/qudt#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:qb="http://purl.org/linked-data/cube#"
+    xmlns:grib2-parameter="http://codes.wmo.int/grib2/schema/parameter/"
+    xmlns:qudt-unit="http://qudt.org/vocab/unit#"
+    xmlns:qudt-quantity="http://qudt.org/vocab/quantity#"
+    xmlns:api="http://purl.org/linked-data/api/vocab#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:grib2-core="http://codes.wmo.int/grib2/schema/core/">
+  <skos:Collection rdf:about="http://codes.wmo.int/wmdr/unit">
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/nmi">
+        <dct:description xml:lang="en">Unit of Length, accepted for use with SI: 1 nmi = 1852 m</dct:description>
+        <rdfs:label>nautical mile</rdfs:label>
+        <skos:notation>nmi</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/degrees_true">
+        <dct:description xml:lang="en"></dct:description>
+        <rdfs:label>degrees true</rdfs:label>
+        <skos:notation>degrees_true</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/cb.(12h)-1">
+        <dct:description xml:lang="en">Unit of time derivative of pressure, pressure tendency, equal to 1 kPa per 12 hours</dct:description>
+        <rdfs:label>centibars per 12 hours</rdfs:label>
+        <skos:notation>cb.(12h)-1</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <rdf:type rdf:resource="http://www.w3.org/ns/ldp#Container"/>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/dB.m-1">
+        <dct:description xml:lang="en">Unit of spatial gradient of sound intensity</dct:description>
+        <rdfs:label>decibels per metre</rdfs:label>
+        <skos:notation>dB.m-1</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/permil">
+        <dct:description xml:lang="en">Dimensionless number, expressed as a fraction of 1000</dct:description>
+        <rdfs:label>parts per thousand</rdfs:label>
+        <skos:notation>permil</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/mg.l-1">
+        <dct:description xml:lang="en">SI derived unit of mass concentration, equal to 0.001 kg/m3</dct:description>
+        <rdfs:label>milligrams per litre</rdfs:label>
+        <skos:notation>mg.l-1</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/m2_s-1">
+        <dct:description xml:lang="en"></dct:description>
+        <rdfs:label>square metres per second</rdfs:label>
+        <skos:notation>m2_s-1</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/umol_mol-1">
+        <dct:description xml:lang="en"></dct:description>
+        <rdfs:label>micromoles per mole</rdfs:label>
+        <skos:notation>umol_mol-1</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/m3_m-3">
+        <dct:description xml:lang="en"></dct:description>
+        <rdfs:label>cubic metres per cubic metre</rdfs:label>
+        <skos:notation>m3_m-3</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/Mm-1.sr-1">
+        <dct:description xml:lang="en">SI derived unit of the scattering coefficient at a given direction, equal to 1E-6 m-1.sr-1</dct:description>
+        <rdfs:label>per megametre per steradian</rdfs:label>
+        <skos:notation>Mm-1.sr-1</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/km.d-1">
+        <dct:description xml:lang="en">Unit of speed, equal to (1000/86400) metres per second</dct:description>
+        <rdfs:label>kilometres per day</rdfs:label>
+        <skos:notation>km.d-1</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/pH_unit">
+        <dct:description xml:lang="en">Negative decimal logarithm of the hydrogen ion activity ('effective' concentration) specified in moles per litre</dct:description>
+        <rdfs:label>pH unit</rdfs:label>
+        <skos:notation>pH_unit</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/N_m-2">
+        <dct:description xml:lang="en"></dct:description>
+        <rdfs:label>newtons per square metre</rdfs:label>
+        <skos:notation>N_m-2</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/ug_N_m-3">
+        <dct:description xml:lang="en"></dct:description>
+        <rdfs:label>microgram N per cubic metre</rdfs:label>
+        <skos:notation>ug_N_m-3</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/kg-2_s-1">
+        <dct:description xml:lang="en"></dct:description>
+        <rdfs:label>per square kilogram per second</rdfs:label>
+        <skos:notation>kg-2_s-1</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/km.h-1">
+        <dct:description xml:lang="en">Unit of speed, equal to (1000/3600) metres per second</dct:description>
+        <rdfs:label>kilometres per hour</rdfs:label>
+        <skos:notation>km.h-1</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/rad">
+        <dct:description xml:lang="en">SI derived unit of plane angle, SI base unit equivalent: 1</dct:description>
+        <rdfs:label>radian</rdfs:label>
+        <skos:notation>rad</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/mg.kg-1">
+        <dct:description xml:lang="en">SI derived unit for mass mixing ratio, equivalent to ppmm or ppm</dct:description>
+        <rdfs:label>milligrams per kilogram</rdfs:label>
+        <skos:notation>mg.kg-1</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/m_s-1_km-1">
+        <dct:description xml:lang="en"></dct:description>
+        <rdfs:label>metres per second per 1000 metres</rdfs:label>
+        <skos:notation>m_s-1_km-1</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/Wb">
+        <dct:description xml:lang="en">SI derived unit of magnetic flux, SI base unit equivalent: kg.m2.s-2.A-1</dct:description>
+        <rdfs:label>weber</rdfs:label>
+        <skos:notation>Wb</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/mg_N_l-1">
+        <dct:description xml:lang="en"></dct:description>
+        <rdfs:label>milligram N per litre</rdfs:label>
+        <skos:notation>mg_N_l-1</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/eV">
+        <dct:description xml:lang="en">Unit of energy, accepted for use with SI: 1eV = 1.60218 x 1E-19 J, approximately</dct:description>
+        <rdfs:label>electron volt</rdfs:label>
+        <skos:notation>eV</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/ng.kg-1">
+        <dct:description xml:lang="en">SI derived unit for mass mixing ratio, equivalent to pptm or ppt</dct:description>
+        <rdfs:label>nanograms per kilogram</rdfs:label>
+        <skos:notation>ng.kg-1</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/W">
+        <dct:description xml:lang="en">SI derived unit of power, radiant flux, SI base unit equivalent: kg.m2.s-3</dct:description>
+        <rdfs:label>watt</rdfs:label>
+        <skos:notation>W</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/kg.kg-1">
+        <dct:description xml:lang="en">SI derived  unit of mass fraction, dimensionless, equal to 1</dct:description>
+        <rdfs:label>kilograms per kilogram</rdfs:label>
+        <skos:notation>kg.kg-1</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/J.m-2">
+        <dct:description xml:lang="en">SI derived unit of radiant exposure</dct:description>
+        <rdfs:label>joules per square metre</rdfs:label>
+        <skos:notation>J.m-2</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/1">
+        <dct:description xml:lang="en">Dimensionless</dct:description>
+        <rdfs:label>dimensionless</rdfs:label>
+        <skos:notation>1</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/mGal">
+        <dct:description xml:lang="en">CGS unit of acceleration, equal to one thousandth of a Gal (1 Gal = 0.01 m s-2)</dct:description>
+        <rdfs:label>milligal</rdfs:label>
+        <skos:notation>mGal</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/MHz">
+        <dct:description xml:lang="en">SI derived unit of frequency, equal to 1E6 Hz</dct:description>
+        <rdfs:label>megahertz</rdfs:label>
+        <skos:notation>MHz</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/mm6.m-3">
+        <dct:description xml:lang="en">Unit of quantity with dimension of L3, 1E-9 m3</dct:description>
+        <rdfs:label>millimetres to the sixth power per cubic metre</rdfs:label>
+        <skos:notation>mm6.m-3</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/m.s-2">
+        <dct:description xml:lang="en">SI derived unit of acceleration</dct:description>
+        <rdfs:label>metres per second squared</rdfs:label>
+        <skos:notation>m.s-2</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/H">
+        <dct:description xml:lang="en">SI derived unit of electrical inductance, SI base unit equivalent: kg.m2.s-2⋅A-2</dct:description>
+        <rdfs:label>henry</rdfs:label>
+        <skos:notation>H</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/percent">
+        <dct:description xml:lang="en">Dimensionless number, expressed as a fraction of 100</dct:description>
+        <rdfs:label>per cent (%)</rdfs:label>
+        <skos:notation>percent</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/ng_m-3">
+        <dct:description xml:lang="en"></dct:description>
+        <rdfs:label>nanograms per cubic metre</rdfs:label>
+        <skos:notation>ng_m-3</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/mon">
+        <dct:description xml:lang="en">Unit of time, equivalent to 28-31 days</dct:description>
+        <rdfs:label>month</rdfs:label>
+        <skos:notation>mon</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/J_kg-1">
+        <dct:description xml:lang="en"></dct:description>
+        <rdfs:label>joules per kilogram</rdfs:label>
+        <skos:notation>J_kg-1</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/m2.s.rad-1">
+        <dct:description xml:lang="en">SI derived unit of sea surface wave directional variance spectral density</dct:description>
+        <rdfs:label>square metres second per radian</rdfs:label>
+        <skos:notation>m2.s.rad-1</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/kt">
+        <dct:description xml:lang="en">Unit of speed, accepted for use with SI: 1 kt = 1 nmi/h = (1852/3600) m.s-1</dct:description>
+        <rdfs:label>knot</rdfs:label>
+        <skos:notation>kt</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/mm.s-1">
+        <dct:description xml:lang="en">Unit of speed, equal to 0.001 metres per second</dct:description>
+        <rdfs:label>millimetres per second</rdfs:label>
+        <skos:notation>mm.s-1</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/Bq_s_m-3">
+        <dct:description xml:lang="en"></dct:description>
+        <rdfs:label>becquerel seconds per cubic metre</rdfs:label>
+        <skos:notation>Bq_s_m-3</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/mg_m-3_25C">
+        <dct:description xml:lang="en"></dct:description>
+        <rdfs:label>milligrams per cubic metre at 25 degrees</rdfs:label>
+        <skos:notation>mg_m-3_25C</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/ppmv">
+        <dct:description xml:lang="en">Unit of volume fraction, equivalent to SI derived unit: cm3.m-3</dct:description>
+        <rdfs:label>parts per million by volume</rdfs:label>
+        <skos:notation>ppmv</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+    >108</owl:versionInfo>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/m2.s-1">
+        <dct:description xml:lang="en">SI derived unit of kinematic viscosity, thermal diffusivity, diffusion coefficient</dct:description>
+        <rdfs:label>square metres per second</rdfs:label>
+        <skos:notation>m2.s-1</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/Bq_l-1">
+        <dct:description xml:lang="en"></dct:description>
+        <rdfs:label>becquerels per litre</rdfs:label>
+        <skos:notation>Bq_l-1</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/a">
+        <dct:description xml:lang="en">Unit of time, equivalent to 31536000 s</dct:description>
+        <rdfs:label>year</rdfs:label>
+        <skos:notation>a</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/km-1">
+        <dct:description xml:lang="en">Unit of quantity with dimension of reciprocal length, e.g., optical attenuation coefficients, equal to 0.001 m-1</dct:description>
+        <rdfs:label>per kilometre</rdfs:label>
+        <skos:notation>km-1</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/W.m-3.sr-1">
+        <dct:description xml:lang="en">SI derived unit of spectral radiance</dct:description>
+        <rdfs:label>watts per cubic metre per steradian</rdfs:label>
+        <skos:notation>W.m-3.sr-1</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/cm.s-1">
+        <dct:description xml:lang="en">SI derived Unit of speed, equal to 0.01 metres per second</dct:description>
+        <rdfs:label>centimetres per second</rdfs:label>
+        <skos:notation>cm.s-1</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/lx">
+        <dct:description xml:lang="en">SI derived unit of illuminance, SI base unit equivalent: cd.m-2</dct:description>
+        <rdfs:label>lux</rdfs:label>
+        <skos:notation>lx</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/g.kg-1.s-1">
+        <dct:description xml:lang="en">SI derived unit of time derivative of mass fraction, equal to 0.001 per second</dct:description>
+        <rdfs:label>grams per kilogram per second</rdfs:label>
+        <skos:notation>g.kg-1.s-1</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/&apos;">
+        <dct:description xml:lang="en">Unit of plane or phase angle, accepted for use with SI: 1 ' = (pi/10800) rad</dct:description>
+        <rdfs:label>minute (angle)</rdfs:label>
+        <skos:notation>'</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/E">
+        <dct:description xml:lang="en">Unit of acceleration divided by distance, 1 E = 1 mGal / 10 km</dct:description>
+        <rdfs:label>Eötvös</rdfs:label>
+        <skos:notation>E</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/dB.deg-1">
+        <dct:description xml:lang="en">Unit of angular gradient of sound intensity</dct:description>
+        <rdfs:label>decibels per degree (angle)</rdfs:label>
+        <skos:notation>dB.deg-1</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/s">
+        <dct:description xml:lang="en">SI base unit of time</dct:description>
+        <rdfs:label>second</rdfs:label>
+        <skos:notation>s</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/ug.kg-1">
+        <dct:description xml:lang="en">SI derived unit for mass mixing ratio, equivalent to ppbm or ppb</dct:description>
+        <rdfs:label>micrograms per kilogram</rdfs:label>
+        <skos:notation>ug.kg-1</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/m3">
+        <dct:description xml:lang="en">SI derived unit of volume</dct:description>
+        <rdfs:label>cubic metres</rdfs:label>
+        <skos:notation>m3</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/S_m-1">
+        <dct:description xml:lang="en"></dct:description>
+        <rdfs:label>siemens per metre</rdfs:label>
+        <skos:notation>S_m-1</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/umol.kg-1">
+        <dct:description xml:lang="en">SI derived unit of molar mass concentration</dct:description>
+        <rdfs:label>micromoles per kilogram</rdfs:label>
+        <skos:notation>umol.kg-1</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/pc">
+        <dct:description xml:lang="en">Astronomical unit of length, distance, 1 pc = 3.0857E16 m, approximately</dct:description>
+        <rdfs:label>parsec</rdfs:label>
+        <skos:notation>pc</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/hPa_h-1">
+        <dct:description xml:lang="en"></dct:description>
+        <rdfs:label>hectopascals per hour</rdfs:label>
+        <skos:notation>hPa_h-1</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/DU">
+        <dct:description xml:lang="en">Unit of column abundance of ozone in the atmosphere. One Dobson unit is equivalent of 2.69E16 molecules of ozone per square centimeter. Alternatively, 1 Dobson unit corresponds to a layer of ozone 1E-5 m thick, if the ozone were held at standard temperature and pressure (273 K, 1 atm pressure). [https://glossary.ametsoc.org/wiki/Dobson_unit]</dct:description>
+        <rdfs:label>Dobson Unit</rdfs:label>
+        <skos:notation>DU</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/C_m-1">
+        <dct:description xml:lang="en"></dct:description>
+        <rdfs:label>degrees Celsius per metre</rdfs:label>
+        <skos:notation>C_m-1</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/kg.m-1">
+        <dct:description xml:lang="en">SI derived unit of linear mass density or quantity with dimension of M L-1</dct:description>
+        <rdfs:label>kilograms per metre</rdfs:label>
+        <skos:notation>kg.m-1</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/rad.s-1">
+        <dct:description xml:lang="en">SI derived unit of angular velocity</dct:description>
+        <rdfs:label>radian per second</rdfs:label>
+        <skos:notation>rad.s-1</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/deg.s-1">
+        <dct:description xml:lang="en">Unit of angular speed, equal to 1 degree per second</dct:description>
+        <rdfs:label>degrees (angle) per second</rdfs:label>
+        <skos:notation>deg.s-1</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/degC">
+        <dct:description xml:lang="en">SI derived unit of temperature, SI base unit equivalent: K</dct:description>
+        <rdfs:label>degrees Celsius (°C)</rdfs:label>
+        <skos:notation>degC</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/umol.mol-1">
+        <dct:description xml:lang="en">SI derived unit equivalent to expressing mole fraction in ppm</dct:description>
+        <rdfs:label>micromoles per mole</rdfs:label>
+        <skos:notation>umol.mol-1</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/mmHg">
+        <dct:description xml:lang="en">Unit of pressure, equal to 133.322387415 pascals</dct:description>
+        <rdfs:label>millimetre of mercury</rdfs:label>
+        <skos:notation>mmHg</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/kg_m-2_s-1">
+        <dct:description xml:lang="en"></dct:description>
+        <rdfs:label>kilograms per square metre per second</rdfs:label>
+        <skos:notation>kg_m-2_s-1</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/W.m-1.sr-1">
+        <dct:description xml:lang="en">SI derived unit of spectral intensity</dct:description>
+        <rdfs:label>watts per metre per steradian</rdfs:label>
+        <skos:notation>W.m-1.sr-1</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/N">
+        <dct:description xml:lang="en">SI derived unit of force, weight, SI base unit equivalent: kg.m.s-2</dct:description>
+        <rdfs:label>newton</rdfs:label>
+        <skos:notation>N</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/W.m-2.sr-1.m">
+        <dct:description xml:lang="en">SI derived unit of spectral radiance per wave number</dct:description>
+        <rdfs:label>watts per square metre per steradian per inverse metre</rdfs:label>
+        <skos:notation>W.m-2.sr-1.m</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/K.m-1">
+        <dct:description xml:lang="en">SI derived unit of spatial gradient of temperature</dct:description>
+        <rdfs:label>kelvins per metre</rdfs:label>
+        <skos:notation>K.m-1</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/m(2_3)_s-1">
+        <dct:description xml:lang="en"></dct:description>
+        <rdfs:label>metres to the two thirds power per second</rdfs:label>
+        <skos:notation>m(2_3)_s-1</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/J">
+        <dct:description xml:lang="en">SI derived unit of energy, work, heat, SI base unit equivalent: kg.m2.s-2</dct:description>
+        <rdfs:label>joule</rdfs:label>
+        <skos:notation>J</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/kcal.cm-2">
+        <dct:description xml:lang="en">Unit of radiant exposure, equal to 4.184E7 J.m-2</dct:description>
+        <rdfs:label>kilocalories per square centimetre</rdfs:label>
+        <skos:notation>kcal.cm-2</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/mm6_m-3">
+        <dct:description xml:lang="en"></dct:description>
+        <rdfs:label>millimetres to the sixth power per cubic metre</rdfs:label>
+        <skos:notation>mm6_m-3</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/m2.s-2">
+        <dct:description xml:lang="en">SI derived quantity with dimension of squared speed</dct:description>
+        <rdfs:label>square metres per square second</rdfs:label>
+        <skos:notation>m2.s-2</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/m.s-1.m-1">
+        <dct:description xml:lang="en">SI derived unit of spatial gradient of speed, equal to 1 s-1</dct:description>
+        <rdfs:label>metres per second per metre</rdfs:label>
+        <skos:notation>m.s-1.m-1</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/C">
+        <dct:description xml:lang="en">SI derived unit of electric charge, SI base unit equivalent: s.A</dct:description>
+        <rdfs:label>coulomb</rdfs:label>
+        <skos:notation>C</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/mol.mol-1">
+        <dct:description xml:lang="en">SI derived unit of mole fraction</dct:description>
+        <rdfs:label>moles per mole</rdfs:label>
+        <skos:notation>mol.mol-1</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/week">
+        <dct:description xml:lang="en">Unit of time, equivalent to 604800 s</dct:description>
+        <rdfs:label>week</rdfs:label>
+        <skos:notation>week</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/ug_m-3_20C">
+        <dct:description xml:lang="en"></dct:description>
+        <rdfs:label>micrograms per cubic metre at 20 degrees</rdfs:label>
+        <skos:notation>ug_m-3_20C</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/unknown">
+        <dct:description xml:lang="en">The correct value is not known to, and not computable by, the sender of this data. However, a correct value probably exists.</dct:description>
+        <rdfs:label>unknown</rdfs:label>
+        <skos:notation>unknown</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/umol_l-1">
+        <dct:description xml:lang="en"></dct:description>
+        <rdfs:label>micromoles per litre</rdfs:label>
+        <skos:notation>umol_l-1</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/J.kg-1">
+        <dct:description xml:lang="en">SI derived unit of specific energy or specific potential enthalpy</dct:description>
+        <rdfs:label>joules per kilogram</rdfs:label>
+        <skos:notation>J.kg-1</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/Hz">
+        <dct:description xml:lang="en">SI derived unit of frequency, SI base unit equivalent: s-1</dct:description>
+        <rdfs:label>hertz</rdfs:label>
+        <skos:notation>Hz</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/lm">
+        <dct:description xml:lang="en">SI derived unit of luminous flux, SI base unit equivalent: cd</dct:description>
+        <rdfs:label>lumen</rdfs:label>
+        <skos:notation>lm</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/Ohm">
+        <dct:description xml:lang="en">SI derived unit of electrical resistance, impedance, reactance, SI base unit equivalent: kg.m2.s-3.A-2</dct:description>
+        <rdfs:label>ohm</rdfs:label>
+        <skos:notation>Ohm</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <ldp:hasMemberRelation rdf:resource="http://www.w3.org/2004/02/skos/core#member"/>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/g_kg-1">
+        <dct:description xml:lang="en"></dct:description>
+        <rdfs:label>grams per kilogram</rdfs:label>
+        <skos:notation>g_kg-1</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/ng.m-3">
+        <dct:description xml:lang="en">SI derived unit of mass concentration</dct:description>
+        <rdfs:label>nanograms per cubic metre</rdfs:label>
+        <skos:notation>ng.m-3</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/K_m_s-1">
+        <dct:description xml:lang="en"></dct:description>
+        <rdfs:label>kelvin metres per second</rdfs:label>
+        <skos:notation>K_m_s-1</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/cm.h-1">
+        <dct:description xml:lang="en">Unit of speed, equal to (0.01/3600) metres per second</dct:description>
+        <rdfs:label>centimetres per hour</rdfs:label>
+        <skos:notation>cm.h-1</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/kt_km-1">
+        <dct:description xml:lang="en"></dct:description>
+        <rdfs:label>knots per 1000 metres</rdfs:label>
+        <skos:notation>kt_km-1</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/kg.m-3">
+        <dct:description xml:lang="en">SI derived unit of density, mass density</dct:description>
+        <rdfs:label>kilograms per cubic metre</rdfs:label>
+        <skos:notation>kg.m-3</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/g_kg-1_s-1">
+        <dct:description xml:lang="en"></dct:description>
+        <rdfs:label>grams per kilogram per second</rdfs:label>
+        <skos:notation>g_kg-1_s-1</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/K">
+        <dct:description xml:lang="en">SI base unit of thermodynamic temperature</dct:description>
+        <rdfs:label>kelvin</rdfs:label>
+        <skos:notation>K</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/mol_mol-1">
+        <dct:description xml:lang="en"></dct:description>
+        <rdfs:label>moles per mole</rdfs:label>
+        <skos:notation>mol_mol-1</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/W.m-2">
+        <dct:description xml:lang="en">SI derived unit of heat flux density, irradiance</dct:description>
+        <rdfs:label>watts per square metre</rdfs:label>
+        <skos:notation>W.m-2</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/mmol_mol-1">
+        <dct:description xml:lang="en"></dct:description>
+        <rdfs:label>millimoles per mole</rdfs:label>
+        <skos:notation>mmol_mol-1</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/t_ha-1">
+        <dct:description xml:lang="en"></dct:description>
+        <rdfs:label>(metric) ton per hectare</rdfs:label>
+        <skos:notation>t_ha-1</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/Pa">
+        <dct:description xml:lang="en">SI derived unit of pressure, stress, SI base unit equivalent: kg.m-1.s-2</dct:description>
+        <rdfs:label>pascal</rdfs:label>
+        <skos:notation>Pa</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <rdf:type rdf:resource="http://purl.org/linked-data/registry#Register"/>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/kt.km-1">
+        <dct:description xml:lang="en">Unit of spatial derivative of speed, equal to 0.51444 s-1, approximately</dct:description>
+        <rdfs:label>knots per 1000 metres</rdfs:label>
+        <skos:notation>kt.km-1</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/ug.m-3">
+        <dct:description xml:lang="en">SI derived unit of mass concentration, equal to 1E-9 kg/m3</dct:description>
+        <rdfs:label>micrograms per cubic metre</rdfs:label>
+        <skos:notation>ug.m-3</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/ft">
+        <dct:description xml:lang="en">Imperial/US unit of length, equal to 0.3048 metres approximately</dct:description>
+        <rdfs:label>foot</rdfs:label>
+        <skos:notation>ft</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/Bq.m-2">
+        <dct:description xml:lang="en">SI derived unit of radioactivity area concentration</dct:description>
+        <rdfs:label>becquerels per square metre</rdfs:label>
+        <skos:notation>Bq.m-2</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/m3.s-1">
+        <dct:description xml:lang="en">SI derived unit of volume flow rate or time derivative of volume</dct:description>
+        <rdfs:label>cubic metres per second</rdfs:label>
+        <skos:notation>m3.s-1</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/Mm-1">
+        <dct:description xml:lang="en">Unit of quantity with dimension of reciprocal length, e.g., optical attenuation coefficients, equal to 1E-6 m-1</dct:description>
+        <rdfs:label>per megametre</rdfs:label>
+        <skos:notation>Mm-1</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/K.m.s-1">
+        <dct:description xml:lang="en">SI derived unit of covariance of wind speed and temperature or the product of wind speed and temperature</dct:description>
+        <rdfs:label>kelvin metres per second</rdfs:label>
+        <skos:notation>K.m.s-1</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/umol_kg-1">
+        <dct:description xml:lang="en"></dct:description>
+        <rdfs:label>micromoles per kilogram</rdfs:label>
+        <skos:notation>umol_kg-1</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/mm_s-1">
+        <dct:description xml:lang="en"></dct:description>
+        <rdfs:label>millimetres per second</rdfs:label>
+        <skos:notation>mm_s-1</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/d">
+        <dct:description xml:lang="en">Unit of time, accepted for use with SI: 1 d = 86400 s</dct:description>
+        <rdfs:label>day</rdfs:label>
+        <skos:notation>d</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/mBq.m-3">
+        <dct:description xml:lang="en">SI derived unit of volumetric radioactivity concentration, equal to 0.001 Bq.m-3</dct:description>
+        <rdfs:label>millibecquerels per cubic metre</rdfs:label>
+        <skos:notation>mBq.m-3</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/m-3">
+        <dct:description xml:lang="en">SI derived unit of specific volume</dct:description>
+        <rdfs:label>per cubic metre</rdfs:label>
+        <skos:notation>m-3</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/ug_S_m-3">
+        <dct:description xml:lang="en"></dct:description>
+        <rdfs:label>microgram S per cubic metre</rdfs:label>
+        <skos:notation>ug_S_m-3</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/Pa.s-1">
+        <dct:description xml:lang="en">Unit of temopral derivative of pressure</dct:description>
+        <rdfs:label>pascals per second</rdfs:label>
+        <skos:notation>Pa.s-1</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/cb_s-1">
+        <dct:description xml:lang="en"></dct:description>
+        <rdfs:label>centibars per second</rdfs:label>
+        <skos:notation>cb_s-1</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/s-2">
+        <dct:description xml:lang="en">Unit of second order time derivative</dct:description>
+        <rdfs:label>per second squared</rdfs:label>
+        <skos:notation>s-2</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/CFU.ml-1">
+        <dct:description xml:lang="en">Unit of number concentration of viable bacteria or fungal cells in a sample as a result of a plate count test</dct:description>
+        <rdfs:label>colony-forming units per millilitre</rdfs:label>
+        <skos:notation>CFU.ml-1</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/min">
+        <dct:description xml:lang="en">Unit of time, accepted for use with SI: 1 min = 60 s</dct:description>
+        <rdfs:label>minute (time)</rdfs:label>
+        <skos:notation>min</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/m2_s-2">
+        <dct:description xml:lang="en"></dct:description>
+        <rdfs:label>square metres per second squared</rdfs:label>
+        <skos:notation>m2_s-2</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/kg_m-1">
+        <dct:description xml:lang="en"></dct:description>
+        <rdfs:label>kilograms per metre</rdfs:label>
+        <skos:notation>kg_m-1</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/m2_s">
+        <dct:description xml:lang="en"></dct:description>
+        <rdfs:label>square metres second</rdfs:label>
+        <skos:notation>m2_s</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/C_(100m)-1">
+        <dct:description xml:lang="en"></dct:description>
+        <rdfs:label>degrees Celsius per 100 metres</rdfs:label>
+        <skos:notation>C_(100m)-1</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/km-1.sr-1">
+        <dct:description xml:lang="en">SI derived unit of the scattering coefficient at a given direction, equal to 1E-3 m-1.sr-1</dct:description>
+        <rdfs:label>per kilometre per steradian</rdfs:label>
+        <skos:notation>km-1.sr-1</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/umol.l-1">
+        <dct:description xml:lang="en">SI derived unit of molar volumetric concentration</dct:description>
+        <rdfs:label>micromoles per litre</rdfs:label>
+        <skos:notation>umol.l-1</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/missing">
+        <dct:description xml:lang="en">The correct value is not readily available to the sender of this data. Furthermore, a correct value may not exist.</dct:description>
+        <rdfs:label>missing</rdfs:label>
+        <skos:notation>missing</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/g0">
+        <dct:description xml:lang="en">g0 = 9.80665 m.s-2, approximately</dct:description>
+        <rdfs:label>standard acceleration due to gravity</rdfs:label>
+        <skos:notation>g0</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/cm3.m-3">
+        <dct:description xml:lang="en">SI derived unit for volumetric mixing ratio, equivalent to ppmv</dct:description>
+        <rdfs:label>cubic centimetres per cubic metre</rdfs:label>
+        <skos:notation>cm3.m-3</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/cm_s-1">
+        <dct:description xml:lang="en"></dct:description>
+        <rdfs:label>centimetres per second</rdfs:label>
+        <skos:notation>cm_s-1</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/m2">
+        <dct:description xml:lang="en">SI derived unit of area</dct:description>
+        <rdfs:label>square metres</rdfs:label>
+        <skos:notation>m2</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/Gy">
+        <dct:description xml:lang="en">SI derived unit of absorbed dose (of ionizing radiation), SI base unit equivalent: m2.s-2</dct:description>
+        <rdfs:label>gray</rdfs:label>
+        <skos:notation>Gy</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/kg-2.s-1">
+        <dct:description xml:lang="en">SI derived unit of quantity with dimension of M-2.T-1</dct:description>
+        <rdfs:label>per square kilogram per second</rdfs:label>
+        <skos:notation>kg-2.s-1</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/cm-3">
+        <dct:description xml:lang="en">SI derived unit of specific volume, equal to 1E-6 m-3</dct:description>
+        <rdfs:label>per cubic centimetre</rdfs:label>
+        <skos:notation>cm-3</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/nautical_mile">
+        <dct:description xml:lang="en"></dct:description>
+        <rdfs:label>nautical mile</rdfs:label>
+        <skos:notation>nautical_mile</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/m-1.sr-1">
+        <dct:description xml:lang="en">SI derived unit of the scattering coefficient at a given direction</dct:description>
+        <rdfs:label>per metre per steradian</rdfs:label>
+        <skos:notation>m-1.sr-1</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/m(2.3-1).s-1">
+        <dct:description xml:lang="en">SI derived unit of the quantity with dimension of L^(2/3) T-1</dct:description>
+        <rdfs:label>metres to the two thirds power per second</rdfs:label>
+        <skos:notation>m(2.3-1).s-1</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/ha">
+        <dct:description xml:lang="en">Unit of area, accepted for use with SI: 1 ha = 10000 m2</dct:description>
+        <rdfs:label>hectare</rdfs:label>
+        <skos:notation>ha</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/mm3.m-3">
+        <dct:description xml:lang="en">SI derived unit for volumetric mixing ratio, equivalent to ppbv</dct:description>
+        <rdfs:label>cubic millimetres per cubic metre</rdfs:label>
+        <skos:notation>mm3.m-3</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/W_m-3_sr-1">
+        <dct:description xml:lang="en"></dct:description>
+        <rdfs:label>watts per cubic metre per steradian</rdfs:label>
+        <skos:notation>W_m-3_sr-1</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/m2.s">
+        <dct:description xml:lang="en">SI derived unit of sea surface wave variance spectral density</dct:description>
+        <rdfs:label>square metres second</rdfs:label>
+        <skos:notation>m2.s</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/l">
+        <dct:description xml:lang="en">SI derived unit of volume, equal to 1E-3 m3</dct:description>
+        <rdfs:label>litre</rdfs:label>
+        <skos:notation>l</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/Bq.m-3">
+        <dct:description xml:lang="en">SI derived unit of radioactivity concentration</dct:description>
+        <rdfs:label>becquerels per cubic metre</rdfs:label>
+        <skos:notation>Bq.m-3</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/kg_kg-1">
+        <dct:description xml:lang="en"></dct:description>
+        <rdfs:label>kilograms per kilogram</rdfs:label>
+        <skos:notation>kg_kg-1</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/dB_deg-1">
+        <dct:description xml:lang="en"></dct:description>
+        <rdfs:label>decibels per degree</rdfs:label>
+        <skos:notation>dB_deg-1</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/kg">
+        <dct:description xml:lang="en">SI base unit of mass</dct:description>
+        <rdfs:label>kilogram</rdfs:label>
+        <skos:notation>kg</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/GHz">
+        <dct:description xml:lang="en">SI derived unit of frequency, equal to 1E9 Hz</dct:description>
+        <rdfs:label>gigahertz</rdfs:label>
+        <skos:notation>GHz</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/MPN.ml-1">
+        <dct:description xml:lang="en">Unit of expected number concentration of bacteria in the original sample based upon the statistical probability of the coincidence of microorganisms in each sample replicate</dct:description>
+        <rdfs:label>most probable number index number in 1 millilitre</rdfs:label>
+        <skos:notation>MPN.ml-1</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/W_m-2">
+        <dct:description xml:lang="en"></dct:description>
+        <rdfs:label>watts per square metre</rdfs:label>
+        <skos:notation>W_m-2</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/in">
+        <dct:description xml:lang="en">Imperial/US unit of length, equal to 25.4 millimetres</dct:description>
+        <rdfs:label>inch</rdfs:label>
+        <skos:notation>in</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/km">
+        <dct:description xml:lang="en">SI derived unit of length, equal to 1000 metres</dct:description>
+        <rdfs:label>kilometre</rdfs:label>
+        <skos:notation>km</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/rad_m-1">
+        <dct:description xml:lang="en"></dct:description>
+        <rdfs:label>radians per metre</rdfs:label>
+        <skos:notation>rad_m-1</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/m_s-1">
+        <dct:description xml:lang="en"></dct:description>
+        <rdfs:label>metres per second</rdfs:label>
+        <skos:notation>m_s-1</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/mmol.mol-1">
+        <dct:description xml:lang="en">SI derived unit equivalent to expressing mole fraction in parts per thousand</dct:description>
+        <rdfs:label>millimoles per mole</rdfs:label>
+        <skos:notation>mmol.mol-1</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/S.m-1">
+        <dct:description xml:lang="en">Unit of spatial gradient of electric conductance</dct:description>
+        <rdfs:label>siemens per metre</rdfs:label>
+        <skos:notation>S.m-1</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/hPa">
+        <dct:description xml:lang="en">SI derived unit of pressure, stress, equal to 100 Pa</dct:description>
+        <rdfs:label>hectopascal</rdfs:label>
+        <skos:notation>hPa</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/N.m-2">
+        <dct:description xml:lang="en">Unit of pressure or equivalent quantity</dct:description>
+        <rdfs:label>newtons per square metre</rdfs:label>
+        <skos:notation>N.m-2</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/W_m-2_sr-1_m">
+        <dct:description xml:lang="en"></dct:description>
+        <rdfs:label>watts per square metre per steradian metre</rdfs:label>
+        <skos:notation>W_m-2_sr-1_m</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/s.m-1">
+        <dct:description xml:lang="en">SI derived unit of quantity with dimension of T. L-1</dct:description>
+        <rdfs:label>seconds per metre</rdfs:label>
+        <skos:notation>s.m-1</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/W.m-2.sr-1.cm">
+        <dct:description xml:lang="en">SI derived unit of spectral radiance per wave number, wave number expressed in 100 m-1</dct:description>
+        <rdfs:label>watts per square metre per steradian per inverse centimetre</rdfs:label>
+        <skos:notation>W.m-2.sr-1.cm</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/kg_kg-1_s-1">
+        <dct:description xml:lang="en"></dct:description>
+        <rdfs:label>kilograms per kilogram per second</rdfs:label>
+        <skos:notation>kg_kg-1_s-1</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/mm_h-1">
+        <dct:description xml:lang="en"></dct:description>
+        <rdfs:label>millimetres per hour</rdfs:label>
+        <skos:notation>mm_h-1</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/mSv">
+        <dct:description xml:lang="en">SI derived unit of equivalent dose (of ionizing radiation), SI base unit equivalent: 0.001 m2.s-2</dct:description>
+        <rdfs:label>millisievert</rdfs:label>
+        <skos:notation>mSv</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/kHz">
+        <dct:description xml:lang="en">SI derived unit of frequency, equal to 1000 Hz</dct:description>
+        <rdfs:label>kilohertz</rdfs:label>
+        <skos:notation>kHz</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/NTU">
+        <dct:description xml:lang="en">Units of turbidity from a calibrated nephelometer</dct:description>
+        <rdfs:label>nephelometric turbidity units</rdfs:label>
+        <skos:notation>NTU</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/km_d-1">
+        <dct:description xml:lang="en"></dct:description>
+        <rdfs:label>kilometres per day</rdfs:label>
+        <skos:notation>km_d-1</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/degC.m-1">
+        <dct:description xml:lang="en">Unit of spatial gradient of temperature per metre</dct:description>
+        <rdfs:label>degrees Celsius per metre</rdfs:label>
+        <skos:notation>degC.m-1</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/K.m2.kg-1.s-1">
+        <dct:description xml:lang="en">SI derived unit of potential vorticity</dct:description>
+        <rdfs:label>kelvin square metres per kilogram per second</rdfs:label>
+        <skos:notation>K.m2.kg-1.s-1</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/degree_(angle)">
+        <dct:description xml:lang="en"></dct:description>
+        <rdfs:label>degree (angle)</rdfs:label>
+        <skos:notation>degree_(angle)</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/kg.kg-1.s-1">
+        <dct:description xml:lang="en">SI derived unit of time derivative of mass fraction, equal to 1 per second</dct:description>
+        <rdfs:label>kilograms per kilogram per second</rdfs:label>
+        <skos:notation>kg.kg-1.s-1</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/W_m-2_sr-1">
+        <dct:description xml:lang="en"></dct:description>
+        <rdfs:label>watts per square metre per steradian</rdfs:label>
+        <skos:notation>W_m-2_sr-1</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/F">
+        <dct:description xml:lang="en">SI derived unit of electrical capacitance, SI base unit equivalent: kg-1.m-2.s4.A2</dct:description>
+        <rdfs:label>farad</rdfs:label>
+        <skos:notation>F</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/m3_s-1">
+        <dct:description xml:lang="en"></dct:description>
+        <rdfs:label>cubic metres per second</rdfs:label>
+        <skos:notation>m3_s-1</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/t">
+        <dct:description xml:lang="en">Unit of mass, equal to 1000 kilograms</dct:description>
+        <rdfs:label>tonne</rdfs:label>
+        <skos:notation>t</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/0.001">
+        <dct:description xml:lang="en"></dct:description>
+        <rdfs:label>parts per thousand</rdfs:label>
+        <skos:notation>0.001</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/mol">
+        <dct:description xml:lang="en">SI base unit of amount of substance</dct:description>
+        <rdfs:label>mole</rdfs:label>
+        <skos:notation>mol</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/m4">
+        <dct:description xml:lang="en">SI derived unit of the second moment of area, area moment of inertia</dct:description>
+        <rdfs:label>metres to the fourth power</rdfs:label>
+        <skos:notation>m4</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/AU">
+        <dct:description xml:lang="en">Unit of length, roughly the distance from Earth to the Sun, approximately 149597870700 m</dct:description>
+        <rdfs:label>astronomical unit</rdfs:label>
+        <skos:notation>AU</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/hPa.s-1">
+        <dct:description xml:lang="en">SI derived unit of time derivative of pressure, equal to 100 Pa per second</dct:description>
+        <rdfs:label>hectopascals per second</rdfs:label>
+        <skos:notation>hPa.s-1</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/Bq_m-2">
+        <dct:description xml:lang="en"></dct:description>
+        <rdfs:label>becquerels per square metre</rdfs:label>
+        <skos:notation>Bq_m-2</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/nmol.mol-1">
+        <dct:description xml:lang="en">SI derived unit equivalent to expressing mole fraction in ppb</dct:description>
+        <rdfs:label>nanomoles per mole</rdfs:label>
+        <skos:notation>nmol.mol-1</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/rad_s-1">
+        <dct:description xml:lang="en"></dct:description>
+        <rdfs:label>radian per second</rdfs:label>
+        <skos:notation>rad_s-1</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/dB_m-1">
+        <dct:description xml:lang="en"></dct:description>
+        <rdfs:label>decibels per metre</rdfs:label>
+        <skos:notation>dB_m-1</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/mBq_m-3">
+        <dct:description xml:lang="en"></dct:description>
+        <rdfs:label>millibecquerels per cubic metre</rdfs:label>
+        <skos:notation>mBq_m-3</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/kg.m-2">
+        <dct:description xml:lang="en">SI derived unit of area density</dct:description>
+        <rdfs:label>kilograms per square metre</rdfs:label>
+        <skos:notation>kg.m-2</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/dm">
+        <dct:description xml:lang="en">SI derived Unit of length, equal to one tenth of a metre (1E-1 m)</dct:description>
+        <rdfs:label>decimetre</rdfs:label>
+        <skos:notation>dm</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/um3.cm-3">
+        <dct:description xml:lang="en">SI derived unit for volumetric mixing ratio, equivalent to pptv</dct:description>
+        <rdfs:label>cubic micrometres per cubic centimetre</rdfs:label>
+        <skos:notation>um3.cm-3</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/t.ha-1">
+        <dct:description xml:lang="en">SI derived unit of area density, equal to 0.1 kg.m-2</dct:description>
+        <rdfs:label>(metric) ton per hectare</rdfs:label>
+        <skos:notation>t.ha-1</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/inapplicable">
+        <dct:description xml:lang="en">There is no value (categorical data).</dct:description>
+        <rdfs:label>inapplicable</rdfs:label>
+        <skos:notation>inapplicable</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/deg">
+        <dct:description xml:lang="en">Unit of plane or phase angle, accepted for use with SI: 1 deg = (pi/180) rad</dct:description>
+        <rdfs:label>degree (angle)</rdfs:label>
+        <skos:notation>deg</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/N_units">
+        <dct:description xml:lang="en">Unit of atmospheric refractivity, the refractivity, N, is related to the refractive index, n, by the formula N = 106 (n-1). N is therefore dimensionless but values computed by the formula are by convention described as being in 'N units'. (WMO Manual on Codes I.2)</dct:description>
+        <rdfs:label>N units</rdfs:label>
+        <skos:notation>N_units</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/K_m-1">
+        <dct:description xml:lang="en"></dct:description>
+        <rdfs:label>kelvins per metre</rdfs:label>
+        <skos:notation>K_m-1</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/W.m-2.sr-1">
+        <dct:description xml:lang="en">SI derived unit of radiance</dct:description>
+        <rdfs:label>watts per square metre per steradian</rdfs:label>
+        <skos:notation>W.m-2.sr-1</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/Bq_m-3">
+        <dct:description xml:lang="en"></dct:description>
+        <rdfs:label>becquerels per cubic metre</rdfs:label>
+        <skos:notation>Bq_m-3</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/S">
+        <dct:description xml:lang="en">SI derived unit of electrical conductance, SI base unit equivalent: kg-1.m-2.s3.A2</dct:description>
+        <rdfs:label>siemens</rdfs:label>
+        <skos:notation>S</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/ug_Cl_m-3">
+        <dct:description xml:lang="en"></dct:description>
+        <rdfs:label>microgram CI per cubic metre</rdfs:label>
+        <skos:notation>ug_Cl_m-3</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/m2_rad-1_s">
+        <dct:description xml:lang="en"></dct:description>
+        <rdfs:label>square metres per radian second</rdfs:label>
+        <skos:notation>m2_rad-1_s</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/V">
+        <dct:description xml:lang="en">SI derived unit of voltage, electrical potential difference, electromotive force, SI base unit equivalent: kg.m2.s-3.A-1</dct:description>
+        <rdfs:label>volt</rdfs:label>
+        <skos:notation>V</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/daPa">
+        <dct:description xml:lang="en">SI derived unit of pressure, stress, equal to 10 Pa</dct:description>
+        <rdfs:label>dekapascal</rdfs:label>
+        <skos:notation>daPa</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/sr">
+        <dct:description xml:lang="en">SI derived unit of solid angle, SI base unit equivalent: 1</dct:description>
+        <rdfs:label>steradian</rdfs:label>
+        <skos:notation>sr</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/m.s-1">
+        <dct:description xml:lang="en">SI derived unit of speed</dct:description>
+        <rdfs:label>metres per second</rdfs:label>
+        <skos:notation>m.s-1</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/u">
+        <dct:description xml:lang="en">Physical constant u or Da (Dalton), unit of mass</dct:description>
+        <rdfs:label>unified atomic mass unit</rdfs:label>
+        <skos:notation>u</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/okta">
+        <dct:description xml:lang="en">Unit of cloud amount, expressed as number of eighths of the sky dome that is covered by clouds</dct:description>
+        <rdfs:label>eights of sky covered by cloud</rdfs:label>
+        <skos:notation>okta</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/s-1">
+        <dct:description xml:lang="en"></dct:description>
+        <rdfs:label>per second (same as hertz)</rdfs:label>
+        <skos:notation>s-1</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/pmol.mol-1">
+        <dct:description xml:lang="en">SI derived unit equivalent to expressing mole fraction in ppt</dct:description>
+        <rdfs:label>picomoles per mole</rdfs:label>
+        <skos:notation>pmol.mol-1</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/nm">
+        <dct:description xml:lang="en">Unit of length, equal to one billionth of a meter (1E-9 m)</dct:description>
+        <rdfs:label>nanometre</rdfs:label>
+        <skos:notation>nm</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/mm">
+        <dct:description xml:lang="en">Unit of length, equal to 0.001 m</dct:description>
+        <rdfs:label>millimetre</rdfs:label>
+        <skos:notation>mm</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/deg_s-1">
+        <dct:description xml:lang="en"></dct:description>
+        <rdfs:label>degrees per second</rdfs:label>
+        <skos:notation>deg_s-1</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/HU">
+        <dct:description xml:lang="en">Unit of color according to the Platinum/Cobalt or Apha/Hazen scale</dct:description>
+        <rdfs:label>Hazen units</rdfs:label>
+        <skos:notation>HU</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/deg2">
+        <dct:description xml:lang="en">Unit of square of phase or plane angle</dct:description>
+        <rdfs:label>square degrees (angle)</rdfs:label>
+        <skos:notation>deg2</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/g">
+        <dct:description xml:lang="en"></dct:description>
+        <rdfs:label>acceleration due to gravity</rdfs:label>
+        <skos:notation>g</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/psu">
+        <dct:description xml:lang="en">Close to 1, determined by CTD</dct:description>
+        <rdfs:label>practical salinity unit</rdfs:label>
+        <skos:notation>psu</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2021-11-04T10:18:53.261Z</dct:modified>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/dPa.s-1">
+        <dct:description xml:lang="en">SI derived unit of time derivative of pressure, pressure tendency, equal to 0.1 Pa.s-1</dct:description>
+        <rdfs:label>decipascals per second (microbar per second)</rdfs:label>
+        <skos:notation>dPa.s-1</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/A">
+        <dct:description xml:lang="en">SI base unit of electric current</dct:description>
+        <rdfs:label>ampere</rdfs:label>
+        <skos:notation>A</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/Bq.s.m-3">
+        <dct:description xml:lang="en">SI derived unit of time integrated radioactivity concentration</dct:description>
+        <rdfs:label>becquerel seconds per cubic metre</rdfs:label>
+        <skos:notation>Bq.s.m-3</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/Cel">
+        <dct:description xml:lang="en"></dct:description>
+        <rdfs:label>degree Celsius</rdfs:label>
+        <skos:notation>Cel</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/rad.m-1">
+        <dct:description xml:lang="en">SI derived unit of spatial gradient of plane angle</dct:description>
+        <rdfs:label>radians per metre</rdfs:label>
+        <skos:notation>rad.m-1</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/cm_h-1">
+        <dct:description xml:lang="en"></dct:description>
+        <rdfs:label>centimetres per hour</rdfs:label>
+        <skos:notation>cm_h-1</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/hPa.(3h)-1">
+        <dct:description xml:lang="en">Unit of time derivative of pressure, equal to 100 Pa per 3 hours</dct:description>
+        <rdfs:label>hectopascals per 3 hours</rdfs:label>
+        <skos:notation>hPa.(3h)-1</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/gpm">
+        <dct:description xml:lang="en">The height of a given point in the atmosphere in units proportional to the potential energy of unit mass (geopotential) at this height relative to sea level. (AMS Glossary of Meteorology)</dct:description>
+        <rdfs:label>geopotential metre</rdfs:label>
+        <skos:notation>gpm</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/ppbv">
+        <dct:description xml:lang="en">Unit of volume fraction, equivalent to SI derived unit: mm3.m-3</dct:description>
+        <rdfs:label>parts per billion by volume</rdfs:label>
+        <skos:notation>ppbv</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <rdfs:label>Measurement unit</rdfs:label>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/W_m-2_sr-1_cm">
+        <dct:description xml:lang="en"></dct:description>
+        <rdfs:label>watts per square metre per steradian centimetre</rdfs:label>
+        <skos:notation>W_m-2_sr-1_cm</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/T">
+        <dct:description xml:lang="en">SI derived unit of magnetic induction, magnetic flux density, SI base unit equivalent: kg.s-2.A-1</dct:description>
+        <rdfs:label>tesla</rdfs:label>
+        <skos:notation>T</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/hPa_-1">
+        <dct:description xml:lang="en"></dct:description>
+        <rdfs:label>hectopascals per 3 hours</rdfs:label>
+        <skos:notation>hPa_-1</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/g.cm-3">
+        <dct:description xml:lang="en">SI derived unit of density, equivalent to kilograms per litre, equal to one thousand kilograms per cubic metre (1E3 kg.m-3)</dct:description>
+        <rdfs:label>grams per cubic centimetre</rdfs:label>
+        <skos:notation>g.cm-3</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/m.s-1.km-1">
+        <dct:description xml:lang="en">SI derived unit of spatial gradient of speed, equal to 0.001 s-1</dct:description>
+        <rdfs:label>metres per second per 1000 metres</rdfs:label>
+        <skos:notation>m.s-1.km-1</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/mg.cm-3">
+        <dct:description xml:lang="en">SI derived unit of mass concentration, equal to 1 kg/m3</dct:description>
+        <rdfs:label>milligrams per cubic centimetre</rdfs:label>
+        <skos:notation>mg.cm-3</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/degC.hm-1">
+        <dct:description xml:lang="en">Unit of spatial gradient of temperature per 100 metres</dct:description>
+        <rdfs:label>degrees Celsius per 100 metres</rdfs:label>
+        <skos:notation>degC.hm-1</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/Sv">
+        <dct:description xml:lang="en">SI derived unit of equivalent dose (of ionizing radiation), SI base unit equivalent: m2.s-2</dct:description>
+        <rdfs:label>sievert</rdfs:label>
+        <skos:notation>Sv</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/g.kg-1">
+        <dct:description xml:lang="en">SI derived unit of mass fraction, dimensionless, equal to 0.001</dct:description>
+        <rdfs:label>grams per kilogram</rdfs:label>
+        <skos:notation>g.kg-1</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/hPa_s-1">
+        <dct:description xml:lang="en"></dct:description>
+        <rdfs:label>hectopascals per second</rdfs:label>
+        <skos:notation>hPa_s-1</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/W_m-1_sr-1">
+        <dct:description xml:lang="en"></dct:description>
+        <rdfs:label>watts per metre per steradian</rdfs:label>
+        <skos:notation>W_m-1_sr-1</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/m_s-1_m-1">
+        <dct:description xml:lang="en"></dct:description>
+        <rdfs:label>metres per second per metre</rdfs:label>
+        <skos:notation>m_s-1_m-1</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/pmol_mol-1">
+        <dct:description xml:lang="en"></dct:description>
+        <rdfs:label>picomoles per mole</rdfs:label>
+        <skos:notation>pmol_mol-1</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/cd">
+        <dct:description xml:lang="en">SI base unit of luminous intensity</dct:description>
+        <rdfs:label>candela</rdfs:label>
+        <skos:notation>cd</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/m2_Hz-1">
+        <dct:description xml:lang="en"></dct:description>
+        <rdfs:label>square metres per hertz</rdfs:label>
+        <skos:notation>m2_Hz-1</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/km_h-1">
+        <dct:description xml:lang="en"></dct:description>
+        <rdfs:label>kilometres per hour</rdfs:label>
+        <skos:notation>km_h-1</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/m3.m-3">
+        <dct:description xml:lang="en">SI derived unit of volume fraction</dct:description>
+        <rdfs:label>cubic metres per cubic metre</rdfs:label>
+        <skos:notation>m3.m-3</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/h">
+        <dct:description xml:lang="en">Unit of time, accepted for use with SI: 1 h = 3600 s</dct:description>
+        <rdfs:label>hour</rdfs:label>
+        <skos:notation>h</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/mV">
+        <dct:description xml:lang="en">SI derived unit of voltage, electrical potential difference, electromotive force, equal one thousandth of a volt (1E-3 V)</dct:description>
+        <rdfs:label>millivolt</rdfs:label>
+        <skos:notation>mV</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/nbar">
+        <dct:description xml:lang="en">Unit of pressure, equal to 1E-4 Pa</dct:description>
+        <rdfs:label>nanobar</rdfs:label>
+        <skos:notation>nbar</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/s_m-1">
+        <dct:description xml:lang="en"></dct:description>
+        <rdfs:label>seconds per metre</rdfs:label>
+        <skos:notation>s_m-1</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/cb.s-1">
+        <dct:description xml:lang="en">Unit of time derivative of pressure, pressure tendency, equal to 1 kPa per second</dct:description>
+        <rdfs:label>centibars per second</rdfs:label>
+        <skos:notation>cb.s-1</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/kPa">
+        <dct:description xml:lang="en">SI derived  unit of pressure, stress, equal to 1000 Pa</dct:description>
+        <rdfs:label>kilopascal</rdfs:label>
+        <skos:notation>kPa</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/kg_m-2">
+        <dct:description xml:lang="en"></dct:description>
+        <rdfs:label>kilograms per square metre</rdfs:label>
+        <skos:notation>kg_m-2</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/nmol_mol-1">
+        <dct:description xml:lang="en"></dct:description>
+        <rdfs:label>nanomoles per mole</rdfs:label>
+        <skos:notation>nmol_mol-1</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/mbar">
+        <dct:description xml:lang="en">SI derived unit of pressure, equal to one thousandth of a bar (1E-3 bar)</dct:description>
+        <rdfs:label>millibar</rdfs:label>
+        <skos:notation>mbar</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/dB">
+        <dct:description xml:lang="en">Unit of sound intensity, accepted for use with SI</dct:description>
+        <rdfs:label>decibel</rdfs:label>
+        <skos:notation>dB</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/hPa.h-1">
+        <dct:description xml:lang="en">Unit of time derivative of pressure, equal to 100 Pa per hour</dct:description>
+        <rdfs:label>hectopascals per hour</rdfs:label>
+        <skos:notation>hPa.h-1</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <dct:description>Measurement unit</dct:description>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/ug.l-1">
+        <dct:description xml:lang="en">SI derived unit of mass concentration, equivalent to milligrams per cubic metre, equal to 1E-3 g.m-3</dct:description>
+        <rdfs:label>micrograms per litre</rdfs:label>
+        <skos:notation>ug.l-1</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/m-1">
+        <dct:description xml:lang="en">SI derived unit of quantity with dimension of reciprocal length, e.g., wave number, optical power, curvature, spatial frequency</dct:description>
+        <rdfs:label>per metre</rdfs:label>
+        <skos:notation>m-1</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/kg.m-2.s-1">
+        <dct:description xml:lang="en">Unit of time derivative of mass area density</dct:description>
+        <rdfs:label>kilograms per square metre per second</rdfs:label>
+        <skos:notation>kg.m-2.s-1</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/cm2">
+        <dct:description xml:lang="en">SI derived unit of area, equal to 1E-4 m2</dct:description>
+        <rdfs:label>square centimetre</rdfs:label>
+        <skos:notation>cm2</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/dPa_s-1">
+        <dct:description xml:lang="en"></dct:description>
+        <rdfs:label>decipascals per second (microbar per second)</rdfs:label>
+        <skos:notation>dPa_s-1</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/Pa_s-1">
+        <dct:description xml:lang="en"></dct:description>
+        <rdfs:label>pascals per second</rdfs:label>
+        <skos:notation>Pa_s-1</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/um">
+        <dct:description xml:lang="en">Unit of length, equal to one millionth of a metre (1E-6 m)</dct:description>
+        <rdfs:label>micrometre</rdfs:label>
+        <skos:notation>um</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/mg_S_l-1">
+        <dct:description xml:lang="en"></dct:description>
+        <rdfs:label>milligram S per litre</rdfs:label>
+        <skos:notation>mg_S_l-1</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/m">
+        <dct:description xml:lang="en">SI base unit of length</dct:description>
+        <rdfs:label>metre</rdfs:label>
+        <skos:notation>m</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/cb_-1">
+        <dct:description xml:lang="en"></dct:description>
+        <rdfs:label>centibars per 12 hours</rdfs:label>
+        <skos:notation>cb_-1</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/pptv">
+        <dct:description xml:lang="en">Unit of volume fraction, equivalent to SI derived unit: um3.cm-3</dct:description>
+        <rdfs:label>parts per trillion by volume</rdfs:label>
+        <skos:notation>pptv</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/uS.cm-1">
+        <dct:description xml:lang="en">SI derived unit of spatial gradient of electrical conductance, equal to 1E-4 S.m-1</dct:description>
+        <rdfs:label>microsiemens per centimetre</rdfs:label>
+        <skos:notation>uS.cm-1</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/THz">
+        <dct:description xml:lang="en">SI derived unit of frequency, equal to 1E12 Hz</dct:description>
+        <rdfs:label>terahertz</rdfs:label>
+        <skos:notation>THz</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/ug_m-3_25C">
+        <dct:description xml:lang="en"></dct:description>
+        <rdfs:label>micrograms per cubic metre at 25 degrees</rdfs:label>
+        <skos:notation>ug_m-3_25C</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/m_s-2">
+        <dct:description xml:lang="en"></dct:description>
+        <rdfs:label>metres per second squared</rdfs:label>
+        <skos:notation>m_s-2</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/K_m2_kg-1_s-1">
+        <dct:description xml:lang="en"></dct:description>
+        <rdfs:label>kelvin square metres per kilogram per second</rdfs:label>
+        <skos:notation>K_m2_kg-1_s-1</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/cm">
+        <dct:description xml:lang="en">Unit of length, equal to one hundredth of a metre (1E-2 m)</dct:description>
+        <rdfs:label>centimetre</rdfs:label>
+        <skos:notation>cm</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/mm.h-1">
+        <dct:description xml:lang="en">Unit of speed, equal to (0.001/3600 ) metres per second</dct:description>
+        <rdfs:label>millimetres per hour</rdfs:label>
+        <skos:notation>mm.h-1</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/&apos;&apos;">
+        <dct:description xml:lang="en">Unit of plane or phase angle, accepted for use with SI: 1 '' = (pi/648000) rad</dct:description>
+        <rdfs:label>second (angle)</rdfs:label>
+        <skos:notation>''</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/J_m-2">
+        <dct:description xml:lang="en"></dct:description>
+        <rdfs:label>joules per square metre</rdfs:label>
+        <skos:notation>J_m-2</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/Bq.l-1">
+        <dct:description xml:lang="en">Unit of radioactivity concentration, equal to 0.001 Bq/m3</dct:description>
+        <rdfs:label>becquerels per litre</rdfs:label>
+        <skos:notation>Bq.l-1</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/Bq">
+        <dct:description xml:lang="en">SI derived unit of radioactivity, SI base unit equivalent: s-1</dct:description>
+        <rdfs:label>becquerel</rdfs:label>
+        <skos:notation>Bq</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/kg_m-3">
+        <dct:description xml:lang="en"></dct:description>
+        <rdfs:label>kilograms per cubic metre</rdfs:label>
+        <skos:notation>kg_m-3</skos:notation>
+      </skos:Concept>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://codes.wmo.int/wmdr/unit/ug_C_m-3">
+        <dct:description xml:lang="en"></dct:description>
+        <rdfs:label>microgram C per cubic metre</rdfs:label>
+        <skos:notation>ug_C_m-3</skos:notation>
+      </skos:Concept>
+    </skos:member>
+  </skos:Collection>
+</rdf:RDF>

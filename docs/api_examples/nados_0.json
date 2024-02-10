@@ -1,0 +1,121 @@
+{
+    "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.92ae9274c0b98eb0153a3fcc4a5cd9edc1b14cd3.002.1",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -97.2,
+                    40.54
+                ],
+                [
+                    -97.10000000000001,
+                    40.6
+                ],
+                [
+                    -96.86000000000001,
+                    40.5
+                ],
+                [
+                    -96.95000000000002,
+                    40.38
+                ],
+                [
+                    -97.15000000000002,
+                    40.35
+                ],
+                [
+                    -97.2,
+                    40.54
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.92ae9274c0b98eb0153a3fcc4a5cd9edc1b14cd3.002.1",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.92ae9274c0b98eb0153a3fcc4a5cd9edc1b14cd3.002.1",
+        "areaDesc": "Gage, NE; Saline, NE",
+        "geocode": {
+            "SAME": [
+                "031067",
+                "031151"
+            ],
+            "UGC": [
+                "NEC067",
+                "NEC151"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/NEC067",
+            "https://api.weather.gov/zones/county/NEC151"
+        ],
+        "references": [
+            {
+                "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8de0b012705f8ed0f0ad99d45d8bb9df2c562d04.001.1",
+                "identifier": "urn:oid:2.49.0.1.840.0.8de0b012705f8ed0f0ad99d45d8bb9df2c562d04.001.1",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2022-06-11T16:44:00-05:00"
+            },
+            {
+                "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.66d78f1926a1000a0ef2e72b8d5d14c09ea0d690.001.1",
+                "identifier": "urn:oid:2.49.0.1.840.0.66d78f1926a1000a0ef2e72b8d5d14c09ea0d690.001.1",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "sent": "2022-06-11T16:54:00-05:00"
+            }
+        ],
+        "sent": "2022-06-11T16:58:00-05:00",
+        "effective": "2022-06-11T16:58:00-05:00",
+        "onset": "2022-06-11T16:58:00-05:00",
+        "expires": "2022-06-11T17:30:00-05:00",
+        "ends": "2022-06-11T17:30:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Extreme",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Tornado Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Omaha/Valley NE",
+        "headline": "Tornado Warning issued June 11 at 4:58PM CDT until June 11 at 5:30PM CDT by NWS Omaha/Valley NE",
+        "description": "RRA\n\nAt 458 PM CDT, a confirmed tornado was located 8 miles west of\nWilber, or 25 miles north of Fairbury, moving southeast at 20 mph.\n\nHAZARD...Damaging tornado and two inch hail.\n\nSOURCE...Public confirmed tornado.\n\nIMPACT...Flying debris will be dangerous to those caught without\nshelter. Mobile homes will be damaged or destroyed. Damage\nto roofs, windows, and vehicles will occur.  Tree damage is\nlikely.\n\nLocations impacted include...\nWilber, Swanton, The Highway 41 and 15 South Junction and Swan Creek\nWildlife Management Area.",
+        "instruction": "To repeat, a tornado is on the ground. TAKE COVER NOW! Move to a\nbasement or an interior room on the lowest floor of a sturdy\nbuilding. Avoid windows. If you are outdoors, in a mobile home, or in\na vehicle, move to the closest substantial shelter and protect\nyourself from flying debris.",
+        "response": "Shelter",
+        "parameters": {
+            "AWIPSidentifier": [
+                "SVSOAX"
+            ],
+            "WMOidentifier": [
+                "WWUS53 KOAX 112158 RRA"
+            ],
+            "NWSheadline": [
+                "A TORNADO WARNING REMAINS IN EFFECT UNTIL 530 PM CDT FOR SOUTHEASTERN SALINE AND NORTHWESTERN GAGE COUNTIES"
+            ],
+            "eventMotionDescription": [
+                "2022-06-11T21:58:00-00:00...storm...314DEG...16KT...40.5,-97.12"
+            ],
+            "maxHailSize": [
+                "2.00"
+            ],
+            "tornadoDetection": [
+                "OBSERVED"
+            ],
+            "BLOCKCHANNEL": [
+                "EAS",
+                "NWEM",
+                "CMAS"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "VTEC": [
+                "/O.CON.KOAX.TO.W.0028.000000T0000Z-220611T2230Z/"
+            ],
+            "eventEndingTime": [
+                "2022-06-11T22:30:00+00:00"
+            ]
+        }
+    }
+}

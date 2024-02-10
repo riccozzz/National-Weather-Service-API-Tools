@@ -1,0 +1,119 @@
+{
+    "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.647aa8f65d051e2a745c2faa3506636079007910.001.1",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -97.02,
+                    40.45
+                ],
+                [
+                    -96.86999999999999,
+                    40.56
+                ],
+                [
+                    -96.52,
+                    40.36
+                ],
+                [
+                    -96.66,
+                    40.21
+                ],
+                [
+                    -96.89,
+                    40.1599999
+                ],
+                [
+                    -97.02,
+                    40.45
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.647aa8f65d051e2a745c2faa3506636079007910.001.1",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.647aa8f65d051e2a745c2faa3506636079007910.001.1",
+        "areaDesc": "Gage, NE; Jefferson, NE; Lancaster, NE; Saline, NE",
+        "geocode": {
+            "SAME": [
+                "031067",
+                "031095",
+                "031109",
+                "031151"
+            ],
+            "UGC": [
+                "NEC067",
+                "NEC095",
+                "NEC109",
+                "NEC151"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/NEC067",
+            "https://api.weather.gov/zones/county/NEC095",
+            "https://api.weather.gov/zones/county/NEC109",
+            "https://api.weather.gov/zones/county/NEC151"
+        ],
+        "references": [],
+        "sent": "2022-06-11T16:32:00-05:00",
+        "effective": "2022-06-11T16:32:00-05:00",
+        "onset": "2022-06-11T16:32:00-05:00",
+        "expires": "2022-06-11T17:15:00-05:00",
+        "ends": "2022-06-11T17:15:00-05:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Extreme",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Tornado Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Omaha/Valley NE",
+        "headline": "Tornado Warning issued June 11 at 4:32PM CDT until June 11 at 5:15PM CDT by NWS Omaha/Valley NE",
+        "description": "The National Weather Service in Omaha has issued a\n\n* Tornado Warning for...\nSouthwestern Lancaster County in southeastern Nebraska...\nNortheastern Jefferson County in southeastern Nebraska...\nSoutheastern Saline County in southeastern Nebraska...\nNorthern Gage County in southeastern Nebraska...\n\n* Until 515 PM CDT.\n\n* At 432 PM CDT, a severe thunderstorm capable of producing a tornado\nwas located near De Witt, or 12 miles northwest of Beatrice, moving\nsoutheast at 40 mph.\n\nHAZARD...Tornado and tennis ball size hail.\n\nSOURCE...Radar indicated rotation.\n\nIMPACT...Flying debris will be dangerous to those caught without\nshelter. Mobile homes will be damaged or destroyed.\nDamage to roofs, windows, and vehicles will occur.  Tree\ndamage is likely.\n\n* This dangerous storm will be near...\nPickrell around 445 PM CDT.\nBeatrice around 450 PM CDT.",
+        "instruction": "TAKE COVER NOW! Move to a basement or an interior room on the lowest\nfloor of a sturdy building. Avoid windows. If you are outdoors, in a\nmobile home, or in a vehicle, move to the closest substantial shelter\nand protect yourself from flying debris.",
+        "response": "Shelter",
+        "parameters": {
+            "AWIPSidentifier": [
+                "TOROAX"
+            ],
+            "WMOidentifier": [
+                "WFUS53 KOAX 112132"
+            ],
+            "eventMotionDescription": [
+                "2022-06-11T21:32:00-00:00...storm...327DEG...36KT...40.42,-96.9"
+            ],
+            "maxHailSize": [
+                "2.50"
+            ],
+            "tornadoDetection": [
+                "RADAR INDICATED"
+            ],
+            "BLOCKCHANNEL": [
+                "EAS",
+                "NWEM"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "VTEC": [
+                "/O.NEW.KOAX.TO.W.0026.220611T2132Z-220611T2215Z/"
+            ],
+            "eventEndingTime": [
+                "2022-06-11T22:15:00+00:00"
+            ],
+            "WEAHandling": [
+                "Imminent Threat"
+            ],
+            "CMAMtext": [
+                "NWS: TORNADO WARNING in this area til 5:15 PM CDT. Take shelter now. Check media."
+            ],
+            "CMAMlongtext": [
+                "National Weather Service: TORNADO WARNING in this area until 5:15 PM CDT. Take shelter now in a basement or an interior room on the lowest floor of a sturdy building. If you are outdoors, in a mobile home, or in a vehicle, move to the closest substantial shelter and protect yourself from flying debris. Check media."
+            ]
+        }
+    }
+}

@@ -1,0 +1,113 @@
+{
+    "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.abb7dc5125479fb8fcecadd734a8a136f3128bde.001.1",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -96.77,
+                    40.2299999
+                ],
+                [
+                    -96.64999999999999,
+                    40.330000000000005
+                ],
+                [
+                    -96.33999999999999,
+                    40.1599999
+                ],
+                [
+                    -96.44999999999999,
+                    40.03
+                ],
+                [
+                    -96.61999999999999,
+                    40
+                ],
+                [
+                    -96.77,
+                    40.2299999
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.abb7dc5125479fb8fcecadd734a8a136f3128bde.001.1",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.abb7dc5125479fb8fcecadd734a8a136f3128bde.001.1",
+        "areaDesc": "Gage, NE; Pawnee, NE",
+        "geocode": {
+            "SAME": [
+                "031067",
+                "031133"
+            ],
+            "UGC": [
+                "NEC067",
+                "NEC133"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/NEC067",
+            "https://api.weather.gov/zones/county/NEC133"
+        ],
+        "references": [],
+        "sent": "2022-06-11T16:42:00-05:00",
+        "effective": "2022-06-11T16:42:00-05:00",
+        "onset": "2022-06-11T16:42:00-05:00",
+        "expires": "2022-06-11T17:30:00-05:00",
+        "ends": "2022-06-11T17:30:00-05:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Extreme",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Tornado Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Omaha/Valley NE",
+        "headline": "Tornado Warning issued June 11 at 4:42PM CDT until June 11 at 5:30PM CDT by NWS Omaha/Valley NE",
+        "description": "The National Weather Service in Omaha has issued a\n\n* Tornado Warning for...\nWest central Pawnee County in southeastern Nebraska...\nSoutheastern Gage County in southeastern Nebraska...\n\n* Until 530 PM CDT.\n\n* At 441 PM CDT, a severe thunderstorm capable of producing a tornado\nwas located 3 miles southeast of Beatrice, moving southeast at 20\nmph.\n\nHAZARD...Tornado and hail up to two inches in diameter.\n\nSOURCE...Radar indicated rotation.\n\nIMPACT...Flying debris will be dangerous to those caught without\nshelter. Mobile homes will be damaged or destroyed.\nDamage to roofs, windows, and vehicles will occur.  Tree\ndamage is likely.\n\n* This dangerous storm will be near...\nHolmesville around 455 PM CDT.\n\nOther locations in the path of this tornadic thunderstorm include\nWymore, Blue Springs, Barneston and Liberty.",
+        "instruction": "TAKE COVER NOW! Move to a basement or an interior room on the lowest\nfloor of a sturdy building. Avoid windows. If you are outdoors, in a\nmobile home, or in a vehicle, move to the closest substantial shelter\nand protect yourself from flying debris.",
+        "response": "Shelter",
+        "parameters": {
+            "AWIPSidentifier": [
+                "TOROAX"
+            ],
+            "WMOidentifier": [
+                "WFUS53 KOAX 112142"
+            ],
+            "eventMotionDescription": [
+                "2022-06-11T21:41:00-00:00...storm...314DEG...16KT...40.24,-96.7"
+            ],
+            "maxHailSize": [
+                "2.00"
+            ],
+            "tornadoDetection": [
+                "RADAR INDICATED"
+            ],
+            "BLOCKCHANNEL": [
+                "EAS",
+                "NWEM"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "VTEC": [
+                "/O.NEW.KOAX.TO.W.0027.220611T2142Z-220611T2230Z/"
+            ],
+            "eventEndingTime": [
+                "2022-06-11T22:30:00+00:00"
+            ],
+            "WEAHandling": [
+                "Imminent Threat"
+            ],
+            "CMAMtext": [
+                "NWS: TORNADO WARNING in this area til 5:30 PM CDT. Take shelter now. Check media."
+            ],
+            "CMAMlongtext": [
+                "National Weather Service: TORNADO WARNING in this area until 5:30 PM CDT. Take shelter now in a basement or an interior room on the lowest floor of a sturdy building. If you are outdoors, in a mobile home, or in a vehicle, move to the closest substantial shelter and protect yourself from flying debris. Check media."
+            ]
+        }
+    }
+}

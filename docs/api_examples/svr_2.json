@@ -1,0 +1,113 @@
+{
+    "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7985a08192cf0a6243a8f8c57ad3ddf11f902125.001.1",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -96.77,
+                    41.43
+                ],
+                [
+                    -96.69,
+                    41.58
+                ],
+                [
+                    -96.22,
+                    41.47
+                ],
+                [
+                    -96.44,
+                    41.19
+                ],
+                [
+                    -96.77,
+                    41.43
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7985a08192cf0a6243a8f8c57ad3ddf11f902125.001.1",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.7985a08192cf0a6243a8f8c57ad3ddf11f902125.001.1",
+        "areaDesc": "Dodge, NE; Douglas, NE; Saunders, NE; Washington, NE",
+        "geocode": {
+            "SAME": [
+                "031053",
+                "031055",
+                "031155",
+                "031177"
+            ],
+            "UGC": [
+                "NEC053",
+                "NEC055",
+                "NEC155",
+                "NEC177"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/NEC053",
+            "https://api.weather.gov/zones/county/NEC055",
+            "https://api.weather.gov/zones/county/NEC155",
+            "https://api.weather.gov/zones/county/NEC177"
+        ],
+        "references": [],
+        "sent": "2022-06-11T16:04:00-05:00",
+        "effective": "2022-06-11T16:04:00-05:00",
+        "onset": "2022-06-11T16:04:00-05:00",
+        "expires": "2022-06-11T16:45:00-05:00",
+        "ends": "2022-06-11T16:45:00-05:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Omaha/Valley NE",
+        "headline": "Severe Thunderstorm Warning issued June 11 at 4:04PM CDT until June 11 at 4:45PM CDT by NWS Omaha/Valley NE",
+        "description": "The National Weather Service in Omaha has issued a\n\n* Severe Thunderstorm Warning for...\nSouthwestern Washington County in east central Nebraska...\nSoutheastern Dodge County in east central Nebraska...\nNorthwestern Douglas County in east central Nebraska...\nNortheastern Saunders County in east central Nebraska...\n\n* Until 445 PM CDT.\n\n* At 404 PM CDT, a severe thunderstorm was located 5 miles north of\nCedar Bluffs, or 6 miles northwest of Fremont, moving southeast at\n35 mph.\n\nHAZARD...Ping pong ball size hail and 60 mph wind gusts.\n\nSOURCE...Radar indicated.\n\nIMPACT...People and animals outdoors will be injured. Expect hail\ndamage to roofs, siding, windows, and vehicles. Expect\nwind damage to roofs, siding, and trees.\n\n* This severe thunderstorm will be near...\nFremont, Inglewood and Woodcliff around 415 PM CDT.\n\nOther locations in the path of this severe thunderstorm include\nArlington, Leshara and Valley.",
+        "instruction": "A Tornado Watch remains in effect until 1000 PM CDT for east central\nNebraska.\n\nFor your protection move to an interior room on the lowest floor of a\nbuilding.",
+        "response": "Shelter",
+        "parameters": {
+            "AWIPSidentifier": [
+                "SVROAX"
+            ],
+            "WMOidentifier": [
+                "WUUS53 KOAX 112104"
+            ],
+            "eventMotionDescription": [
+                "2022-06-11T21:04:00-00:00...storm...295DEG...32KT...41.48,-96.6"
+            ],
+            "windThreat": [
+                "RADAR INDICATED"
+            ],
+            "maxWindGust": [
+                "60 MPH"
+            ],
+            "hailThreat": [
+                "RADAR INDICATED"
+            ],
+            "maxHailSize": [
+                "1.50"
+            ],
+            "BLOCKCHANNEL": [
+                "EAS",
+                "NWEM",
+                "CMAS"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "VTEC": [
+                "/O.NEW.KOAX.SV.W.0168.220611T2104Z-220611T2145Z/"
+            ],
+            "eventEndingTime": [
+                "2022-06-11T21:45:00+00:00"
+            ]
+        }
+    }
+}

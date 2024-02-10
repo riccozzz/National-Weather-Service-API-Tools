@@ -1,0 +1,117 @@
+{
+    "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ccb88cb39a6006d5e62666586a6e39abc9166e5c.001.1",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -96.97,
+                    40.32
+                ],
+                [
+                    -96.91,
+                    40.46
+                ],
+                [
+                    -96.4599999,
+                    40.45
+                ],
+                [
+                    -96.45,
+                    40.27
+                ],
+                [
+                    -96.61,
+                    40.13
+                ],
+                [
+                    -96.97,
+                    40.32
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ccb88cb39a6006d5e62666586a6e39abc9166e5c.001.1",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.ccb88cb39a6006d5e62666586a6e39abc9166e5c.001.1",
+        "areaDesc": "Gage, NE; Jefferson, NE; Johnson, NE; Saline, NE",
+        "geocode": {
+            "SAME": [
+                "031067",
+                "031095",
+                "031097",
+                "031151"
+            ],
+            "UGC": [
+                "NEC067",
+                "NEC095",
+                "NEC097",
+                "NEC151"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/NEC067",
+            "https://api.weather.gov/zones/county/NEC095",
+            "https://api.weather.gov/zones/county/NEC097",
+            "https://api.weather.gov/zones/county/NEC151"
+        ],
+        "references": [],
+        "sent": "2022-06-11T16:03:00-05:00",
+        "effective": "2022-06-11T16:03:00-05:00",
+        "onset": "2022-06-11T16:03:00-05:00",
+        "expires": "2022-06-11T16:45:00-05:00",
+        "ends": "2022-06-11T16:45:00-05:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Omaha/Valley NE",
+        "headline": "Severe Thunderstorm Warning issued June 11 at 4:03PM CDT until June 11 at 4:45PM CDT by NWS Omaha/Valley NE",
+        "description": "The National Weather Service in Omaha has issued a\n\n* Severe Thunderstorm Warning for...\nSouthwestern Johnson County in southeastern Nebraska...\nNortheastern Jefferson County in southeastern Nebraska...\nSoutheastern Saline County in southeastern Nebraska...\nCentral Gage County in southeastern Nebraska...\n\n* Until 445 PM CDT.\n\n* At 403 PM CDT, a severe thunderstorm was located 5 miles southwest\nof Pickrell, or 5 miles northwest of Beatrice, moving east at 30\nmph.\n\nHAZARD...Ping pong ball size hail and 60 mph wind gusts.\n\nSOURCE...Radar indicated.\n\nIMPACT...People and animals outdoors will be injured. Expect hail\ndamage to roofs, siding, windows, and vehicles. Expect\nwind damage to roofs, siding, and trees.\n\n* This severe thunderstorm will be near...\nBeatrice and Pickrell around 410 PM CDT.\n\nOther locations in the path of this severe thunderstorm include\nHolmesville, Filley and Virginia.",
+        "instruction": "A Tornado Watch remains in effect until 1000 PM CDT for southeastern\nNebraska.\n\nFor your protection move to an interior room on the lowest floor of a\nbuilding.",
+        "response": "Shelter",
+        "parameters": {
+            "AWIPSidentifier": [
+                "SVROAX"
+            ],
+            "WMOidentifier": [
+                "WUUS53 KOAX 112103"
+            ],
+            "eventMotionDescription": [
+                "2022-06-11T21:03:00-00:00...storm...279DEG...26KT...40.33,-96.82"
+            ],
+            "windThreat": [
+                "RADAR INDICATED"
+            ],
+            "maxWindGust": [
+                "60 MPH"
+            ],
+            "hailThreat": [
+                "RADAR INDICATED"
+            ],
+            "maxHailSize": [
+                "1.50"
+            ],
+            "BLOCKCHANNEL": [
+                "EAS",
+                "NWEM",
+                "CMAS"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "VTEC": [
+                "/O.NEW.KOAX.SV.W.0167.220611T2103Z-220611T2145Z/"
+            ],
+            "eventEndingTime": [
+                "2022-06-11T21:45:00+00:00"
+            ]
+        }
+    }
+}

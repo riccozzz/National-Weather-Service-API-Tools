@@ -1,0 +1,114 @@
+{
+    "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.78d5abef0491406375f14afd12f61082e0801768.001.1",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -97.09,
+                    40.54
+                ],
+                [
+                    -96.99000000000001,
+                    40.699999999999996
+                ],
+                [
+                    -96.61000000000001,
+                    40.63999999999999
+                ],
+                [
+                    -96.65000000000002,
+                    40.479999899999996
+                ],
+                [
+                    -96.78000000000002,
+                    40.37
+                ],
+                [
+                    -97.09,
+                    40.54
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.78d5abef0491406375f14afd12f61082e0801768.001.1",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.78d5abef0491406375f14afd12f61082e0801768.001.1",
+        "areaDesc": "Gage, NE; Lancaster, NE; Saline, NE",
+        "geocode": {
+            "SAME": [
+                "031067",
+                "031109",
+                "031151"
+            ],
+            "UGC": [
+                "NEC067",
+                "NEC109",
+                "NEC151"
+            ]
+        },
+        "affectedZones": [
+            "https://api.weather.gov/zones/county/NEC067",
+            "https://api.weather.gov/zones/county/NEC109",
+            "https://api.weather.gov/zones/county/NEC151"
+        ],
+        "references": [],
+        "sent": "2022-06-11T15:59:00-05:00",
+        "effective": "2022-06-11T15:59:00-05:00",
+        "onset": "2022-06-11T15:59:00-05:00",
+        "expires": "2022-06-11T16:45:00-05:00",
+        "ends": "2022-06-11T16:45:00-05:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Omaha/Valley NE",
+        "headline": "Severe Thunderstorm Warning issued June 11 at 3:59PM CDT until June 11 at 4:45PM CDT by NWS Omaha/Valley NE",
+        "description": "The National Weather Service in Omaha has issued a\n\n* Severe Thunderstorm Warning for...\nSouthwestern Lancaster County in southeastern Nebraska...\nNortheastern Saline County in southeastern Nebraska...\nNorthwestern Gage County in southeastern Nebraska...\n\n* Until 445 PM CDT.\n\n* At 359 PM CDT, a severe thunderstorm was located near Crete, or 20\nmiles southwest of Lincoln, moving southeast at 10 mph.\n\nHAZARD...Ping pong ball size hail and 60 mph wind gusts.\n\nSOURCE...Radar indicated.\n\nIMPACT...People and animals outdoors will be injured. Expect hail\ndamage to roofs, siding, windows, and vehicles. Expect\nwind damage to roofs, siding, and trees.\n\n* Locations impacted include...\nWilber, Cortland, Clatonia, Hallam and Sprague.",
+        "instruction": "A Tornado Watch remains in effect until 1000 PM CDT for southeastern\nNebraska.\n\nFor your protection move to an interior room on the lowest floor of a\nbuilding.",
+        "response": "Shelter",
+        "parameters": {
+            "AWIPSidentifier": [
+                "SVROAX"
+            ],
+            "WMOidentifier": [
+                "WUUS53 KOAX 112059"
+            ],
+            "eventMotionDescription": [
+                "2022-06-11T20:59:00-00:00...storm...296DEG...10KT...40.59,-96.96"
+            ],
+            "windThreat": [
+                "RADAR INDICATED"
+            ],
+            "maxWindGust": [
+                "60 MPH"
+            ],
+            "hailThreat": [
+                "RADAR INDICATED"
+            ],
+            "maxHailSize": [
+                "1.50"
+            ],
+            "BLOCKCHANNEL": [
+                "EAS",
+                "NWEM",
+                "CMAS"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "VTEC": [
+                "/O.NEW.KOAX.SV.W.0166.220611T2059Z-220611T2145Z/"
+            ],
+            "eventEndingTime": [
+                "2022-06-11T21:45:00+00:00"
+            ]
+        }
+    }
+}
